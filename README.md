@@ -47,3 +47,6 @@ Solution :-
         - If yes, then draw the bounding box with detected class as a label.
 
         - Else no, then will pass to the next detection.
+
+
+Important note :- As the trained weight file's size is beyond github's limit. So, could not be able to upload .pb file, however the .pb file can be access from the SSD's respective github link.
