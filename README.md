@@ -38,6 +38,7 @@ Solution :-
       : The result of detection is list of list cardinally with detected classID, confidence score, (x,y) coordinate, width, height.
 
       : Set the detection threshold value- detects how well the object is detected in the detected bounding box.
+        Note- Based on model's output, set threshold- 0 (no detection will be display), 0.9 (multiple with irrelevant detections will be display) 
 
       : For each detections, extract the classID, confidence score. Then extract the bounding box dimensions and normalise each dimension wrt to image's shape.
       
